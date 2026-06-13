@@ -1,0 +1,26 @@
+# Environment variables - never commit this
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite database
+data.db
+
+# Test audio files
+test_audio.mp3
+test_pipeline_audio.mp3
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
